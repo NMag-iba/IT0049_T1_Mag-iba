@@ -52,7 +52,7 @@
             <tr>
                 <th>Username</th>
                 <th>Full Name</th>
-                <th>Role</th>
+                <th>Created At</th>
             </tr>
         </thead>
 
@@ -61,7 +61,7 @@
                 <tr>
                     <td><?= $user['username'] ?></td>
                     <td><?= $user['full_name'] ?></td>
-                    <td><?= $user['role'] ?></td>
+                    <td><?= $user['created_at'] ?></td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
