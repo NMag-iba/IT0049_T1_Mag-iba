@@ -84,6 +84,7 @@
         <a href="<?= site_url('about') ?>">About</a>
         <a href="<?= site_url('customers') ?>">Customer Accounts</a>
         <a href="<?= site_url('users') ?>">User Accounts</a>
+        <a href="<?= site_url('logout') ?>">Logout</a>
     </nav>
 
     <table>
